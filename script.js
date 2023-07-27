@@ -16,12 +16,12 @@ function countdown() {
   const minutes = Math.floor(totalSeconds / 60) % 60;
   const seconds = Math.floor(totalSeconds) % 60;
 
-  // console.log(days, hours, minutes, seconds);
+  console.log(days, hours, minutes, seconds);
 
-  daysEl.innerHtml = days;
-  hoursEl.innerHtml = formatTime(hours);
-  minutesEl.innerHtml = formatTime(minutes);
-  secondsEl.innerHtml = formatTime(seconds);
+  daysEl.innerHTML = days;
+  hoursEl.innerHTML = formatTime(hours);
+  minutesEl.innerHTML = formatTime(minutes);
+  secondsEl.innerHTML = formatTime(seconds);
 }
 
 function formatTime(time) {
