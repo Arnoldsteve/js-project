@@ -7,7 +7,7 @@
   justify-content: center;
 }
 body {
-  background-image: url("./birthDay.jpg");
+  background-image: url("img/birthDay.jpg");
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -19,10 +19,24 @@ body {
   color: gold;
 }
 
+.img.profile-picture {
+  margin-top: 20px;
+  max-width: 20%;
+  height: auto;
+  width: 20%;
+  float: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-name {
+  color: beige;
+}
+
 h1 {
   font-weight: normal;
   font-size: 4rem;
-  margin-top: 200px;
+  margin-top: -10px;
 }
 
 .countdown-container {
@@ -46,4 +60,23 @@ h1 {
 .countdown-element {
   font-size: 1rem;
   box-sizing: border-box;
+}
+
+.powered-by {
+  color: white;
+  /* border: 1px solid goldenrod; */
+  box-sizing: border-box;
+  backdrop-filter: 20px;
+  width: auto;
+  height: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.powered-by p {
+  /* color: blue; */
+}
+
+.powered-by span {
+  font-size: medium;
+  font-weight: bold;
 }
