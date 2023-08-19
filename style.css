@@ -29,6 +29,10 @@ body {
   justify-content: center;
 }
 
+img .profile-picture.bg-color {
+  background: transparent;
+}
+
 .b-name {
   color: beige;
 }
