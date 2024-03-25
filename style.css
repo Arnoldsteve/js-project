@@ -29,8 +29,10 @@ body {
   justify-content: center;
 }
 
-img .profile-picture.bg-color {
+img.profile-picture img.bg-color {
   background: transparent;
+  border-radius: 50%;
+  display: none;
 }
 
 .b-name {
